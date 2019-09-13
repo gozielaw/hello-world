@@ -1,0 +1,33 @@
+body {
+  background-image: url("bgimage.jpg");
+  background-color: #ffffff;
+  background-size: cover;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
+.body-h1 {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.div-nav {
+  background-color: black;
+}
+
+.div-button {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+}
+.div-button input {
+  background-color: #0099ffc0;
+  color: #ffffff;
+  border: 0px;
+  padding: 10px 50px;
+  border-radius: 75px;
+  transition: all;
+}
+.div-button input:hover{
+  transform: scale(1.1);
+  color: #ffffff;
+}
